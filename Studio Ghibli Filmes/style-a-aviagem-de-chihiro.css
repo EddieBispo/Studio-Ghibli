@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#titulo-especial{
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 5px #00000085(0, 0, 0, 0.481);
+}
+
+p{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px #000000a5(0, 0, 0, 0.481);
+}
+
+.corpo-artigo{
+    width: 100%;
+    position: absolute;
+    top: 800px;
+    background: linear-gradient(#98d0a1,#7bb084, #5DAE6A ,#458450);
+}
+
+#dados-filme{
+    height: 100%;
+    width: 500px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#7be88e,#458450);
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px #2d5734a8;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.img-fundo{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens-a-viagem-de-chihiro/A-Viagem-de-Chihiro-chihiro-e-haku.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+}

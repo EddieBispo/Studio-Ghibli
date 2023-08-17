@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+#titulo-especial{
+    text-align: left;
+    color: white;
+    text-shadow: 1px 1px 5px #265b2d(0, 0, 0, 0.481);
+}
+
+p{
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px #00182da5(0, 0, 0, 0.481);
+}
+
+.corpo-artigo{
+    width: 100%;
+    position: absolute;
+    top: 800px;
+    background: linear-gradient(#2077B5,#005888 80%, #05466B ,#032d45);
+}
+
+#dados-filme{
+    height: 100%;
+    width: 500px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#0086cf,#06476C);
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px #031b2872;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.img-fundo{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagens-o-castelo-animado/O-Castelo-Animado-Howl-e-Sophie.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+}

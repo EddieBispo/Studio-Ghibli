@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+    width: 100vw;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#logo-link-pagina-inicial{
+    max-width: 40%;
+    max-height: 25%;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.inf-studio-ghibli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sobre-studio-ghibli{
+    width: 50%;
+    margin: 30px;
+    
+}
+
+.div-img-sobre-studio-ghibli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-sobre-studio-ghibli{
+    max-width: 90%;
+    margin-bottom: 60px;
+}
+
+.div-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.td1{
+    width: 200px;
+    height: 35px;
+}
+
+.div-botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#botao-assista-netflix{
+    height: 30px;
+    width: 200px;
+    background: red;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#botao-assista-netflix:hover{
+    transform: scale(1.02);
+    transition: 1s;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}

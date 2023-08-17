@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+    width: 100vw;
+    margin: 0px;
+}
+
+h1{
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#titulo-especial{
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+}
+
+.img-fundo{
+    height: 100vh;
+    width: 100%;
+    background-image: url(imagens-index/Studio-Ghibli-Logo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0px;
+}
+
+.corpo-artigo{
+    width: 100%;
+    position: absolute;
+    top: 800px;
+    background: linear-gradient(-90deg,#F8F8F8,#e7e7e7);
+}
+
+.filmes{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#filme-div{
+    margin: 10px;
+}
+
+#filme-img{
+    width: 320px;
+    border-radius: 10px;
+}
+
+#filme-img:hover{
+    transform: scale(1.05);
+    transition: 0.8s;
+    box-shadow: 0 5px 10px rgb(96, 96, 96);
+}
+
+.inf-studio-ghibli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#sobre-studio-ghibli{
+    width: 50%;
+    margin: 30px;
+    
+}
+
+.div-img-sobre-studio-ghibli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-sobre-studio-ghibli{
+    max-width: 90%;
+    margin-bottom: 60px;
+}
+
+#dados-studio{
+    height: 100%;
+    width: 500px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#1C93BF,#1a83c0);
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.div-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.td1{
+    width: 200px;
+    height: 35px;
+}
